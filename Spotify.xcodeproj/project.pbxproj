@@ -25,6 +25,10 @@
 		C4BD73A8262846C300449C2D /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73A7262846C300449C2D /* AuthManager.swift */; };
 		C4BD73AE262846FA00449C2D /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73AD262846FA00449C2D /* HapticsManager.swift */; };
 		C4BD73B22628474300449C2D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73B12628474300449C2D /* APIManager.swift */; };
+		C4BD73B52628479800449C2D /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73B42628479800449C2D /* Playlist.swift */; };
+		C4BD73B9262847A400449C2D /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73B8262847A400449C2D /* AudioTrack.swift */; };
+		C4BD73BC262847BB00449C2D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73BB262847BB00449C2D /* Artist.swift */; };
+		C4BD73BF262847D300449C2D /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73BE262847D300449C2D /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		C4BD73A7262846C300449C2D /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		C4BD73AD262846FA00449C2D /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		C4BD73B12628474300449C2D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C4BD73B42628479800449C2D /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		C4BD73B8262847A400449C2D /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		C4BD73BB262847BB00449C2D /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		C4BD73BE262847D300449C2D /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,10 @@
 		C46F787D2627FE1E0099C0FC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C4BD73B42628479800449C2D /* Playlist.swift */,
+				C4BD73B8262847A400449C2D /* AudioTrack.swift */,
+				C4BD73BB262847BB00449C2D /* Artist.swift */,
+				C4BD73BE262847D300449C2D /* UserProfile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -237,16 +249,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4BD73B22628474300449C2D /* APIManager.swift in Sources */,
+				C4BD73B52628479800449C2D /* Playlist.swift in Sources */,
 				C4BD73892628019A00449C2D /* SearchViewController.swift in Sources */,
 				C4BD73A8262846C300449C2D /* AuthManager.swift in Sources */,
 				C4BD73A52628030C00449C2D /* SearchResultsViewController.swift in Sources */,
 				C4BD73962628028300449C2D /* WelcomeViewController.swift in Sources */,
 				C4BD739C262802BA00449C2D /* ProfileViewController.swift in Sources */,
 				C4BD73842628014B00449C2D /* TabBarViewController.swift in Sources */,
+				C4BD73B9262847A400449C2D /* AudioTrack.swift in Sources */,
 				C4BD73AE262846FA00449C2D /* HapticsManager.swift in Sources */,
 				C46F786B2626AB330099C0FC /* HomeViewController.swift in Sources */,
 				C4BD73922628027000449C2D /* AuthViewController.swift in Sources */,
+				C4BD73BF262847D300449C2D /* UserProfile.swift in Sources */,
 				C46F78672626AB330099C0FC /* AppDelegate.swift in Sources */,
+				C4BD73BC262847BB00449C2D /* Artist.swift in Sources */,
 				C4BD738D262801E100449C2D /* LibraryViewController.swift in Sources */,
 				C4BD73A2262802EA00449C2D /* PlaylistViewController.swift in Sources */,
 				C46F78692626AB330099C0FC /* SceneDelegate.swift in Sources */,

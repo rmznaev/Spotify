@@ -92,8 +92,8 @@
 			children = (
 				C46F78802627FE430099C0FC /* Resources */,
 				C46F787F2627FE340099C0FC /* Managers */,
-				C46F787E2627FE2A0099C0FC /* ViewModels */,
 				C46F787D2627FE1E0099C0FC /* Models */,
+				C470ABE026299DEE00965571 /* ViewModels */,
 				C46F787C2627FE180099C0FC /* Views */,
 				C46F787B2627FE090099C0FC /* Controllers */,
 				C46F78742626AB350099C0FC /* Info.plist */,
@@ -129,13 +129,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		C46F787E2627FE2A0099C0FC /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		C46F787F2627FE340099C0FC /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +148,13 @@
 				C4BD73C9262995BA00449C2D /* Extensions.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C470ABE026299DEE00965571 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		C4BD738F2628020800449C2D /* Core */ = {

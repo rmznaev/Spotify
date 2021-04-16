@@ -29,6 +29,7 @@
 		C4BD73B9262847A400449C2D /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73B8262847A400449C2D /* AudioTrack.swift */; };
 		C4BD73BC262847BB00449C2D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73BB262847BB00449C2D /* Artist.swift */; };
 		C4BD73BF262847D300449C2D /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73BE262847D300449C2D /* UserProfile.swift */; };
+		C4BD73CA262995BA00449C2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73C9262995BA00449C2D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		C4BD73B8262847A400449C2D /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		C4BD73BB262847BB00449C2D /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		C4BD73BE262847D300449C2D /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		C4BD73C9262995BA00449C2D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				C46F786F2626AB350099C0FC /* Assets.xcassets */,
 				C46F78662626AB330099C0FC /* AppDelegate.swift */,
 				C46F78682626AB330099C0FC /* SceneDelegate.swift */,
+				C4BD73C9262995BA00449C2D /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				C46F786B2626AB330099C0FC /* HomeViewController.swift in Sources */,
 				C4BD73922628027000449C2D /* AuthViewController.swift in Sources */,
 				C4BD73BF262847D300449C2D /* UserProfile.swift in Sources */,
+				C4BD73CA262995BA00449C2D /* Extensions.swift in Sources */,
 				C46F78672626AB330099C0FC /* AppDelegate.swift in Sources */,
 				C4BD73BC262847BB00449C2D /* Artist.swift in Sources */,
 				C4BD738D262801E100449C2D /* LibraryViewController.swift in Sources */,

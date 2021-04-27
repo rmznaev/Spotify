@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,7 +27,7 @@
 		C4BD73A52628030C00449C2D /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73A42628030C00449C2D /* SearchResultsViewController.swift */; };
 		C4BD73A8262846C300449C2D /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73A7262846C300449C2D /* AuthManager.swift */; };
 		C4BD73AE262846FA00449C2D /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73AD262846FA00449C2D /* HapticsManager.swift */; };
-		C4BD73B22628474300449C2D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73B12628474300449C2D /* APIManager.swift */; };
+		C4BD73B22628474300449C2D /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73B12628474300449C2D /* APICaller.swift */; };
 		C4BD73B52628479800449C2D /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73B42628479800449C2D /* Playlist.swift */; };
 		C4BD73B9262847A400449C2D /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73B8262847A400449C2D /* AudioTrack.swift */; };
 		C4BD73BC262847BB00449C2D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73BB262847BB00449C2D /* Artist.swift */; };
@@ -59,7 +59,7 @@
 		C4BD73A42628030C00449C2D /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		C4BD73A7262846C300449C2D /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		C4BD73AD262846FA00449C2D /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
-		C4BD73B12628474300449C2D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C4BD73B12628474300449C2D /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		C4BD73B42628479800449C2D /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		C4BD73B8262847A400449C2D /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		C4BD73BB262847BB00449C2D /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				C4BD73A7262846C300449C2D /* AuthManager.swift */,
-				C4BD73B12628474300449C2D /* APIManager.swift */,
+				C4BD73B12628474300449C2D /* APICaller.swift */,
 				C4BD73AD262846FA00449C2D /* HapticsManager.swift */,
 			);
 			path = Managers;
@@ -201,7 +201,6 @@
 				9170A68A5D03EEEE58AA5515 /* Pods-Spotify.debug.xcconfig */,
 				A8CE537AC8E4822E750C44AD /* Pods-Spotify.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -326,7 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4BD73B22628474300449C2D /* APIManager.swift in Sources */,
+				C4BD73B22628474300449C2D /* APICaller.swift in Sources */,
 				C4BD73B52628479800449C2D /* Playlist.swift in Sources */,
 				C4BD73892628019A00449C2D /* SearchViewController.swift in Sources */,
 				C4BD73A8262846C300449C2D /* AuthManager.swift in Sources */,
